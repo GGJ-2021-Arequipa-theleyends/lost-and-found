@@ -8,21 +8,12 @@ Assets {
   }
 }
 Assets {
-  Id: 15470833608142846413
-  Name: "Fantasy Human Gal 2"
-  PlatformAssetType: 17
+  Id: 13417971313372784885
+  Name: "Animated Glowing Hex"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_001_ref"
-  }
-}
-Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_hex_animated"
   }
 }
 Assets {
@@ -44,29 +35,11 @@ Assets {
   }
 }
 Assets {
-  Id: 7121509877863865445
-  Name: "Human Gal 1"
-  PlatformAssetType: 17
+  Id: 6449829660791420504
+  Name: "Container - Square Thin 01"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_basic_001_ref"
-  }
-}
-Assets {
-  Id: 6847100940456170331
-  Name: "Human Gal 2"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_basic_002_ref"
-  }
-}
-Assets {
-  Id: 6777546873930254113
-  Name: "Fox Mob"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_fox_default_basic_001_ref"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_container_square_thin_ref"
   }
 }

@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 7367735074338159388
-  ChildIds: 16813558807825262224
+  ChildIds: 13855650357371236403
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
-  ChildIds: 10641171570437927351
+  ChildIds: 17284060850121542170
+  ChildIds: 13782917316762256381
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -32,16 +32,38 @@ Objects {
   }
 }
 Objects {
-  Id: 10641171570437927351
-  Name: "Spawn Point"
+  Id: 13782917316762256381
+  Name: "Sprinting With Stamina"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5453334570220234187
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sprinting With Stamina"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1751904553412034687
+    }
+  }
+}
+Objects {
+  Id: 17284060850121542170
+  Name: "timer"
   Transform {
     Location {
-      X: 1800
-      Y: -1800
-      Z: 115
     }
     Rotation {
-      Yaw: 135
     }
     Scale {
       X: 1
@@ -50,17 +72,15 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "timer"
   }
 }
 Objects {
@@ -622,40 +642,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -2100
-      Y: 2200
-      Z: 115
-    }
-    Rotation {
-      Yaw: -45
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
-  Id: 7367735074338159388
-  Name: "Game Settings"
+  Id: 13855650357371236403
+  Name: "Game defaults"
   Transform {
     Location {
     }
@@ -674,34 +662,8 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Settings {
-    IsDefault: true
-    GameSettings {
-      RagdollOnDeath: true
-      ChatMode {
-        Value: "mc:echatmode:teamandall"
-      }
-      ChatSettings {
-        ChatMode {
-        }
-        ChatPosition {
-          X: 40
-        }
-        ChatSize {
-          X: 450
-          Y: 400
-        }
-        ChatHorizontalAlignment {
-          Value: "mc:ecorehorizontalalign:left"
-        }
-        ChatVerticalAlignment {
-          Value: "mc:ecorehorizontalalign:center"
-        }
-      }
-      PhysicsSettings {
-        MinContactOffset: 2
-        MaxContactOffset: 8
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Game defaults"
   }
 }

@@ -1,12 +1,13 @@
 Name: "objetos"
 RootId: 9503243746298527675
 Objects {
-  Id: 2509480238671385955
+  Id: 2585225943880691952
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }
@@ -17,12 +18,12 @@ Objects {
     }
   }
   ParentId: 9503243746298527675
-  ChildIds: 14452504083300984109
-  ChildIds: 6379730678624977937
-  ChildIds: 8277603974842901238
-  ChildIds: 6097724786235771412
-  ChildIds: 16637233759323149155
-  ChildIds: 2970207079860909431
+  ChildIds: 15498181279485287450
+  ChildIds: 13900900007080024174
+  ChildIds: 13489851160540416819
+  ChildIds: 10732575348189934235
+  ChildIds: 11915610957800567903
+  ChildIds: 7317426772248844005
   UnregisteredParameters {
     Overrides {
       Name: "cs:OpenOnce"
@@ -90,7 +91,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2970207079860909431
+  Id: 7317426772248844005
   Name: "ClientContext"
   Transform {
     Location {
@@ -103,11 +104,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
-  ChildIds: 16021928810778389650
-  ChildIds: 17098239078272143087
-  ChildIds: 16748335619045847686
-  ChildIds: 12338509440086673728
+  ParentId: 2585225943880691952
+  ChildIds: 18431573818930755433
+  ChildIds: 10933606285521617915
+  ChildIds: 178430946605174951
+  ChildIds: 2964228835288520229
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -125,7 +126,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12338509440086673728
+  Id: 2964228835288520229
   Name: "Chest Treasure Pile"
   Transform {
     Location {
@@ -139,7 +140,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2970207079860909431
+  ParentId: 7317426772248844005
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -174,7 +175,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16748335619045847686
+  Id: 178430946605174951
   Name: "Heper_ChestCloseSound"
   Transform {
     Location {
@@ -187,7 +188,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2970207079860909431
+  ParentId: 7317426772248844005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -213,7 +214,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17098239078272143087
+  Id: 10933606285521617915
   Name: "Heper_ChestOpenSound"
   Transform {
     Location {
@@ -226,7 +227,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2970207079860909431
+  ParentId: 7317426772248844005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -252,7 +253,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16021928810778389650
+  Id: 18431573818930755433
   Name: "BasicChestControllerClient"
   Transform {
     Location {
@@ -265,24 +266,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2970207079860909431
+  ParentId: 7317426772248844005
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 16637233759323149155
+        SelfId: 11915610957800567903
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 17098239078272143087
+        SelfId: 10933606285521617915
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 16748335619045847686
+        SelfId: 178430946605174951
       }
     }
   }
@@ -305,7 +306,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16637233759323149155
+  Id: 11915610957800567903
   Name: "RotationRoot"
   Transform {
     Location {
@@ -320,8 +321,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
-  ChildIds: 17184740051085526895
+  ParentId: 2585225943880691952
+  ChildIds: 7625146828879931015
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -340,7 +341,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17184740051085526895
+  Id: 7625146828879931015
   Name: "Lid Rotation Static Context"
   Transform {
     Location {
@@ -355,8 +356,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16637233759323149155
-  ChildIds: 8592013042829765992
+  ParentId: 11915610957800567903
+  ChildIds: 17286867201862666994
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -375,7 +376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8592013042829765992
+  Id: 17286867201862666994
   Name: "Chest Lid"
   Transform {
     Location {
@@ -388,7 +389,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17184740051085526895
+  ParentId: 7625146828879931015
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -417,7 +418,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6097724786235771412
+  Id: 10732575348189934235
   Name: "Fantasy Chest Base Collision"
   Transform {
     Location {
@@ -430,7 +431,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
+  ParentId: 2585225943880691952
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -460,7 +461,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8277603974842901238
+  Id: 13489851160540416819
   Name: "LootItemSpawnPoint"
   Transform {
     Location {
@@ -474,7 +475,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
+  ParentId: 2585225943880691952
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -493,7 +494,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6379730678624977937
+  Id: 13900900007080024174
   Name: "BasicChestControllerServer"
   Transform {
     Location {
@@ -506,30 +507,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
+  ParentId: 2585225943880691952
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 2509480238671385955
+        SelfId: 2585225943880691952
       }
     }
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 16637233759323149155
+        SelfId: 11915610957800567903
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 14452504083300984109
+        SelfId: 15498181279485287450
       }
     }
     Overrides {
       Name: "cs:LootItemSpawnPoint"
       ObjectReference {
-        SelfId: 8277603974842901238
+        SelfId: 13489851160540416819
       }
     }
   }
@@ -553,7 +554,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14452504083300984109
+  Id: 15498181279485287450
   Name: "Trigger"
   Transform {
     Location {
@@ -567,7 +568,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2509480238671385955
+  ParentId: 2585225943880691952
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -594,12 +595,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1153725416822267889
+  Id: 8525269662989180574
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }
@@ -610,12 +612,12 @@ Objects {
     }
   }
   ParentId: 9503243746298527675
-  ChildIds: 8495505926555780363
-  ChildIds: 4369346244854817545
-  ChildIds: 17283778274730273227
-  ChildIds: 11169785884888746110
-  ChildIds: 13784133991277657023
-  ChildIds: 3290820616605473221
+  ChildIds: 1375647209662558806
+  ChildIds: 14724311808041440228
+  ChildIds: 15860001278436063261
+  ChildIds: 950246205243328476
+  ChildIds: 8185239178286369475
+  ChildIds: 16343187961545509354
   UnregisteredParameters {
     Overrides {
       Name: "cs:OpenOnce"
@@ -683,7 +685,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3290820616605473221
+  Id: 16343187961545509354
   Name: "ClientContext"
   Transform {
     Location {
@@ -696,11 +698,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
-  ChildIds: 2162480690589433267
-  ChildIds: 7747597932747691830
-  ChildIds: 8081670310430030553
-  ChildIds: 17684566050751924640
+  ParentId: 8525269662989180574
+  ChildIds: 10721302087362136462
+  ChildIds: 1348599608639843352
+  ChildIds: 10933698384982789667
+  ChildIds: 11687535348496548985
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -718,7 +720,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17684566050751924640
+  Id: 11687535348496548985
   Name: "Chest Treasure Pile"
   Transform {
     Location {
@@ -732,7 +734,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3290820616605473221
+  ParentId: 16343187961545509354
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -767,7 +769,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8081670310430030553
+  Id: 10933698384982789667
   Name: "Heper_ChestCloseSound"
   Transform {
     Location {
@@ -780,7 +782,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3290820616605473221
+  ParentId: 16343187961545509354
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -806,7 +808,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7747597932747691830
+  Id: 1348599608639843352
   Name: "Heper_ChestOpenSound"
   Transform {
     Location {
@@ -819,7 +821,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3290820616605473221
+  ParentId: 16343187961545509354
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -845,7 +847,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2162480690589433267
+  Id: 10721302087362136462
   Name: "BasicChestControllerClient"
   Transform {
     Location {
@@ -858,24 +860,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3290820616605473221
+  ParentId: 16343187961545509354
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 13784133991277657023
+        SelfId: 8185239178286369475
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 7747597932747691830
+        SelfId: 1348599608639843352
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 8081670310430030553
+        SelfId: 10933698384982789667
       }
     }
   }
@@ -898,7 +900,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13784133991277657023
+  Id: 8185239178286369475
   Name: "RotationRoot"
   Transform {
     Location {
@@ -913,8 +915,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
-  ChildIds: 10058388153259536161
+  ParentId: 8525269662989180574
+  ChildIds: 13994103428884188171
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -933,7 +935,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10058388153259536161
+  Id: 13994103428884188171
   Name: "Lid Rotation Static Context"
   Transform {
     Location {
@@ -948,8 +950,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13784133991277657023
-  ChildIds: 15406399215051051527
+  ParentId: 8185239178286369475
+  ChildIds: 12946298136182467860
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -968,7 +970,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15406399215051051527
+  Id: 12946298136182467860
   Name: "Chest Lid"
   Transform {
     Location {
@@ -981,7 +983,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10058388153259536161
+  ParentId: 13994103428884188171
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1010,7 +1012,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11169785884888746110
+  Id: 950246205243328476
   Name: "Fantasy Chest Base Collision"
   Transform {
     Location {
@@ -1023,7 +1025,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
+  ParentId: 8525269662989180574
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1053,7 +1055,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17283778274730273227
+  Id: 15860001278436063261
   Name: "LootItemSpawnPoint"
   Transform {
     Location {
@@ -1067,7 +1069,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
+  ParentId: 8525269662989180574
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1086,7 +1088,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4369346244854817545
+  Id: 14724311808041440228
   Name: "BasicChestControllerServer"
   Transform {
     Location {
@@ -1099,30 +1101,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
+  ParentId: 8525269662989180574
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 1153725416822267889
+        SelfId: 8525269662989180574
       }
     }
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 13784133991277657023
+        SelfId: 8185239178286369475
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 8495505926555780363
+        SelfId: 1375647209662558806
       }
     }
     Overrides {
       Name: "cs:LootItemSpawnPoint"
       ObjectReference {
-        SelfId: 17283778274730273227
+        SelfId: 15860001278436063261
       }
     }
   }
@@ -1146,7 +1148,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8495505926555780363
+  Id: 1375647209662558806
   Name: "Trigger"
   Transform {
     Location {
@@ -1160,7 +1162,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1153725416822267889
+  ParentId: 8525269662989180574
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -1187,12 +1189,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2311804788473335412
+  Id: 3974857660711338191
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }
@@ -1203,12 +1206,12 @@ Objects {
     }
   }
   ParentId: 9503243746298527675
-  ChildIds: 8531881758349646250
-  ChildIds: 17703427314613750355
-  ChildIds: 4651206325396348627
-  ChildIds: 5389769265461426167
-  ChildIds: 12487245699237560460
-  ChildIds: 15014494380371262771
+  ChildIds: 12547184600108826142
+  ChildIds: 17388242466447668520
+  ChildIds: 11113776899874894564
+  ChildIds: 8936813439512291393
+  ChildIds: 4198685429750600401
+  ChildIds: 5289666009916132737
   UnregisteredParameters {
     Overrides {
       Name: "cs:OpenOnce"
@@ -1276,7 +1279,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15014494380371262771
+  Id: 5289666009916132737
   Name: "ClientContext"
   Transform {
     Location {
@@ -1289,11 +1292,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
-  ChildIds: 630762836367824165
-  ChildIds: 6377545561706716080
-  ChildIds: 3120089528531285156
-  ChildIds: 2826916431068385628
+  ParentId: 3974857660711338191
+  ChildIds: 5596660422995551787
+  ChildIds: 16392841087494830847
+  ChildIds: 5322333698769168709
+  ChildIds: 1984593516591331819
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1311,7 +1314,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2826916431068385628
+  Id: 1984593516591331819
   Name: "Chest Treasure Pile"
   Transform {
     Location {
@@ -1325,7 +1328,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15014494380371262771
+  ParentId: 5289666009916132737
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -1360,7 +1363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3120089528531285156
+  Id: 5322333698769168709
   Name: "Heper_ChestCloseSound"
   Transform {
     Location {
@@ -1373,7 +1376,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15014494380371262771
+  ParentId: 5289666009916132737
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1399,7 +1402,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6377545561706716080
+  Id: 16392841087494830847
   Name: "Heper_ChestOpenSound"
   Transform {
     Location {
@@ -1412,7 +1415,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15014494380371262771
+  ParentId: 5289666009916132737
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1438,7 +1441,7 @@ Objects {
   }
 }
 Objects {
-  Id: 630762836367824165
+  Id: 5596660422995551787
   Name: "BasicChestControllerClient"
   Transform {
     Location {
@@ -1451,24 +1454,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15014494380371262771
+  ParentId: 5289666009916132737
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 12487245699237560460
+        SelfId: 4198685429750600401
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 6377545561706716080
+        SelfId: 16392841087494830847
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 3120089528531285156
+        SelfId: 5322333698769168709
       }
     }
   }
@@ -1491,7 +1494,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12487245699237560460
+  Id: 4198685429750600401
   Name: "RotationRoot"
   Transform {
     Location {
@@ -1506,8 +1509,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
-  ChildIds: 840240774183709918
+  ParentId: 3974857660711338191
+  ChildIds: 1726820009898688737
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1526,7 +1529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 840240774183709918
+  Id: 1726820009898688737
   Name: "Lid Rotation Static Context"
   Transform {
     Location {
@@ -1541,8 +1544,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12487245699237560460
-  ChildIds: 16037456018120206472
+  ParentId: 4198685429750600401
+  ChildIds: 11598694048475600421
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1561,7 +1564,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16037456018120206472
+  Id: 11598694048475600421
   Name: "Chest Lid"
   Transform {
     Location {
@@ -1574,7 +1577,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 840240774183709918
+  ParentId: 1726820009898688737
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1603,7 +1606,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5389769265461426167
+  Id: 8936813439512291393
   Name: "Fantasy Chest Base Collision"
   Transform {
     Location {
@@ -1616,7 +1619,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
+  ParentId: 3974857660711338191
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1646,7 +1649,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4651206325396348627
+  Id: 11113776899874894564
   Name: "LootItemSpawnPoint"
   Transform {
     Location {
@@ -1660,7 +1663,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
+  ParentId: 3974857660711338191
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1679,7 +1682,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17703427314613750355
+  Id: 17388242466447668520
   Name: "BasicChestControllerServer"
   Transform {
     Location {
@@ -1692,30 +1695,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
+  ParentId: 3974857660711338191
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 2311804788473335412
+        SelfId: 3974857660711338191
       }
     }
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 12487245699237560460
+        SelfId: 4198685429750600401
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 8531881758349646250
+        SelfId: 12547184600108826142
       }
     }
     Overrides {
       Name: "cs:LootItemSpawnPoint"
       ObjectReference {
-        SelfId: 4651206325396348627
+        SelfId: 11113776899874894564
       }
     }
   }
@@ -1739,7 +1742,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8531881758349646250
+  Id: 12547184600108826142
   Name: "Trigger"
   Transform {
     Location {
@@ -1753,7 +1756,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2311804788473335412
+  ParentId: 3974857660711338191
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -1780,12 +1783,13 @@ Objects {
   }
 }
 Objects {
-  Id: 3812590271610426553
+  Id: 9254993173924803257
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }
@@ -1796,12 +1800,12 @@ Objects {
     }
   }
   ParentId: 9503243746298527675
-  ChildIds: 11738425915774248324
-  ChildIds: 8629100104945714128
-  ChildIds: 2637969853513478218
-  ChildIds: 10451057185895357763
-  ChildIds: 114177886065475962
-  ChildIds: 11158877437098352433
+  ChildIds: 9524564243320432489
+  ChildIds: 1518994620272515614
+  ChildIds: 3730549503841475991
+  ChildIds: 10418799025918495139
+  ChildIds: 18337440776960466326
+  ChildIds: 4688481084793362870
   UnregisteredParameters {
     Overrides {
       Name: "cs:OpenOnce"
@@ -1869,7 +1873,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11158877437098352433
+  Id: 4688481084793362870
   Name: "ClientContext"
   Transform {
     Location {
@@ -1882,11 +1886,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
-  ChildIds: 6191251900745268230
-  ChildIds: 16619980832021922626
-  ChildIds: 13439679006321528317
-  ChildIds: 7307300047830312422
+  ParentId: 9254993173924803257
+  ChildIds: 16946772703529360020
+  ChildIds: 11346367607986834759
+  ChildIds: 7948481514237954628
+  ChildIds: 1890912569677508585
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1904,7 +1908,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7307300047830312422
+  Id: 1890912569677508585
   Name: "Chest Treasure Pile"
   Transform {
     Location {
@@ -1918,7 +1922,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11158877437098352433
+  ParentId: 4688481084793362870
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -1953,7 +1957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13439679006321528317
+  Id: 7948481514237954628
   Name: "Heper_ChestCloseSound"
   Transform {
     Location {
@@ -1966,7 +1970,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11158877437098352433
+  ParentId: 4688481084793362870
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1992,7 +1996,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16619980832021922626
+  Id: 11346367607986834759
   Name: "Heper_ChestOpenSound"
   Transform {
     Location {
@@ -2005,7 +2009,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11158877437098352433
+  ParentId: 4688481084793362870
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2031,7 +2035,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6191251900745268230
+  Id: 16946772703529360020
   Name: "BasicChestControllerClient"
   Transform {
     Location {
@@ -2044,24 +2048,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11158877437098352433
+  ParentId: 4688481084793362870
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 114177886065475962
+        SelfId: 18337440776960466326
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 16619980832021922626
+        SelfId: 11346367607986834759
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 13439679006321528317
+        SelfId: 7948481514237954628
       }
     }
   }
@@ -2084,7 +2088,7 @@ Objects {
   }
 }
 Objects {
-  Id: 114177886065475962
+  Id: 18337440776960466326
   Name: "RotationRoot"
   Transform {
     Location {
@@ -2099,8 +2103,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
-  ChildIds: 6990442147651343345
+  ParentId: 9254993173924803257
+  ChildIds: 3326235482319322198
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2119,7 +2123,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6990442147651343345
+  Id: 3326235482319322198
   Name: "Lid Rotation Static Context"
   Transform {
     Location {
@@ -2134,8 +2138,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 114177886065475962
-  ChildIds: 15438379765299881730
+  ParentId: 18337440776960466326
+  ChildIds: 2564692552605804050
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2154,7 +2158,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15438379765299881730
+  Id: 2564692552605804050
   Name: "Chest Lid"
   Transform {
     Location {
@@ -2167,7 +2171,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6990442147651343345
+  ParentId: 3326235482319322198
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2196,7 +2200,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10451057185895357763
+  Id: 10418799025918495139
   Name: "Fantasy Chest Base Collision"
   Transform {
     Location {
@@ -2209,7 +2213,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
+  ParentId: 9254993173924803257
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2239,7 +2243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2637969853513478218
+  Id: 3730549503841475991
   Name: "LootItemSpawnPoint"
   Transform {
     Location {
@@ -2253,7 +2257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
+  ParentId: 9254993173924803257
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2272,7 +2276,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8629100104945714128
+  Id: 1518994620272515614
   Name: "BasicChestControllerServer"
   Transform {
     Location {
@@ -2285,30 +2289,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
+  ParentId: 9254993173924803257
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 3812590271610426553
+        SelfId: 9254993173924803257
       }
     }
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 114177886065475962
+        SelfId: 18337440776960466326
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 11738425915774248324
+        SelfId: 9524564243320432489
       }
     }
     Overrides {
       Name: "cs:LootItemSpawnPoint"
       ObjectReference {
-        SelfId: 2637969853513478218
+        SelfId: 3730549503841475991
       }
     }
   }
@@ -2332,7 +2336,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11738425915774248324
+  Id: 9524564243320432489
   Name: "Trigger"
   Transform {
     Location {
@@ -2346,7 +2350,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3812590271610426553
+  ParentId: 9254993173924803257
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -2373,12 +2377,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13112326578944440371
+  Id: 13301643490342171655
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }
@@ -2389,12 +2394,12 @@ Objects {
     }
   }
   ParentId: 9503243746298527675
-  ChildIds: 2110115793881547178
-  ChildIds: 12989936019287740818
-  ChildIds: 17552114371050961669
-  ChildIds: 4577820226539782252
-  ChildIds: 13448832754308220733
-  ChildIds: 14868859856172881387
+  ChildIds: 12569905370685744622
+  ChildIds: 16135302616413117565
+  ChildIds: 9906700107336736622
+  ChildIds: 15499614808862110671
+  ChildIds: 17444383665112876535
+  ChildIds: 15414110650852233357
   UnregisteredParameters {
     Overrides {
       Name: "cs:OpenOnce"
@@ -2462,7 +2467,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14868859856172881387
+  Id: 15414110650852233357
   Name: "ClientContext"
   Transform {
     Location {
@@ -2475,11 +2480,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
-  ChildIds: 1794393296527662402
-  ChildIds: 16369935138219336138
-  ChildIds: 10799900015176465945
-  ChildIds: 7102830312191458154
+  ParentId: 13301643490342171655
+  ChildIds: 17196948139536518594
+  ChildIds: 11401408813695177030
+  ChildIds: 14093784828908701061
+  ChildIds: 57736258158267786
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2497,7 +2502,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7102830312191458154
+  Id: 57736258158267786
   Name: "Chest Treasure Pile"
   Transform {
     Location {
@@ -2511,7 +2516,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14868859856172881387
+  ParentId: 15414110650852233357
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
@@ -2546,7 +2551,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10799900015176465945
+  Id: 14093784828908701061
   Name: "Heper_ChestCloseSound"
   Transform {
     Location {
@@ -2559,7 +2564,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14868859856172881387
+  ParentId: 15414110650852233357
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2585,7 +2590,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16369935138219336138
+  Id: 11401408813695177030
   Name: "Heper_ChestOpenSound"
   Transform {
     Location {
@@ -2598,7 +2603,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14868859856172881387
+  ParentId: 15414110650852233357
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2624,7 +2629,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1794393296527662402
+  Id: 17196948139536518594
   Name: "BasicChestControllerClient"
   Transform {
     Location {
@@ -2637,24 +2642,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14868859856172881387
+  ParentId: 15414110650852233357
   UnregisteredParameters {
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 13448832754308220733
+        SelfId: 17444383665112876535
       }
     }
     Overrides {
       Name: "cs:OpenSound"
       ObjectReference {
-        SelfId: 16369935138219336138
+        SelfId: 11401408813695177030
       }
     }
     Overrides {
       Name: "cs:CloseSound"
       ObjectReference {
-        SelfId: 10799900015176465945
+        SelfId: 14093784828908701061
       }
     }
   }
@@ -2677,7 +2682,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13448832754308220733
+  Id: 17444383665112876535
   Name: "RotationRoot"
   Transform {
     Location {
@@ -2692,8 +2697,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
-  ChildIds: 11142685692451383416
+  ParentId: 13301643490342171655
+  ChildIds: 1618807850161257863
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2712,7 +2717,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11142685692451383416
+  Id: 1618807850161257863
   Name: "Lid Rotation Static Context"
   Transform {
     Location {
@@ -2727,8 +2732,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13448832754308220733
-  ChildIds: 5353222415302348026
+  ParentId: 17444383665112876535
+  ChildIds: 7325600981194871095
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2747,7 +2752,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5353222415302348026
+  Id: 7325600981194871095
   Name: "Chest Lid"
   Transform {
     Location {
@@ -2760,7 +2765,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11142685692451383416
+  ParentId: 1618807850161257863
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2789,7 +2794,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4577820226539782252
+  Id: 15499614808862110671
   Name: "Fantasy Chest Base Collision"
   Transform {
     Location {
@@ -2802,7 +2807,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
+  ParentId: 13301643490342171655
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2832,7 +2837,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17552114371050961669
+  Id: 9906700107336736622
   Name: "LootItemSpawnPoint"
   Transform {
     Location {
@@ -2846,7 +2851,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
+  ParentId: 13301643490342171655
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2865,7 +2870,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12989936019287740818
+  Id: 16135302616413117565
   Name: "BasicChestControllerServer"
   Transform {
     Location {
@@ -2878,30 +2883,30 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
+  ParentId: 13301643490342171655
   UnregisteredParameters {
     Overrides {
       Name: "cs:ComponentRoot"
       ObjectReference {
-        SelfId: 13112326578944440371
+        SelfId: 13301643490342171655
       }
     }
     Overrides {
       Name: "cs:RotationRoot"
       ObjectReference {
-        SelfId: 13448832754308220733
+        SelfId: 17444383665112876535
       }
     }
     Overrides {
       Name: "cs:Trigger"
       ObjectReference {
-        SelfId: 2110115793881547178
+        SelfId: 12569905370685744622
       }
     }
     Overrides {
       Name: "cs:LootItemSpawnPoint"
       ObjectReference {
-        SelfId: 17552114371050961669
+        SelfId: 9906700107336736622
       }
     }
   }
@@ -2925,7 +2930,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2110115793881547178
+  Id: 12569905370685744622
   Name: "Trigger"
   Transform {
     Location {
@@ -2939,7 +2944,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13112326578944440371
+  ParentId: 13301643490342171655
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceon"
@@ -2970,8 +2975,9 @@ Objects {
   Name: "Basic Chest"
   Transform {
     Location {
-      X: -1850
+      X: -200
       Y: -3550
+      Z: 450
     }
     Rotation {
     }

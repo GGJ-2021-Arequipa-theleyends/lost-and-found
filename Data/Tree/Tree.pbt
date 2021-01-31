@@ -25,7 +25,6 @@ Objects {
   ChildIds: 637669065586339152
   ChildIds: 1977523113125348848
   ChildIds: 9503243746298527675
-  ChildIds: 9104258142949794794
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,41 +34,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 9104258142949794794
-  Name: "destroy"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:objetos"
-      ObjectReference {
-        SelfId: 9503243746298527675
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 578310246733889999
-    }
   }
 }
 Objects {
@@ -380,7 +344,15 @@ Objects {
           Name: "Position"
           Vector {
             X: -50
-            Z: 150
+            Z: 1000
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -36.9108887
+            Yaw: 4.26431608
+            Roll: 5.98035
           }
         }
       }
@@ -405,6 +377,7 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

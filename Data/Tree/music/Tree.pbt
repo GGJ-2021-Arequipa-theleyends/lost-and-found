@@ -72,6 +72,7 @@ Objects {
     TeamSettings {
     }
     AudioBP {
+      AutoPlay: true
       Repeat: true
       Volume: 1
       Falloff: 3600

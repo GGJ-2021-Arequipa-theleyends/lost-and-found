@@ -17,9 +17,12 @@ Objects {
   ChildIds: 13855650357371236403
   ChildIds: 14713340454944924967
   ChildIds: 10005074784157121906
-  ChildIds: 14982843161775482339
   ChildIds: 17284060850121542170
   ChildIds: 13782917316762256381
+  ChildIds: 3148483243563297839
+  ChildIds: 17898116609735694753
+  ChildIds: 12143787958206797703
+  ChildIds: 637669065586339152
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +32,145 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 637669065586339152
+  Name: "labyrinth"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "labyrinth"
+  }
+}
+Objects {
+  Id: 12143787958206797703
+  Name: "Bone King Throne"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18373512628809793478
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bone King Throne"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 600
+            Y: -3350
+            Z: 700
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16543480154519187423
+    }
+  }
+}
+Objects {
+  Id: 17898116609735694753
+  Name: "Stone Angel"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10385984742308535990
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Stone Angel"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -600
+            Y: -3300
+            Z: 700
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.21
+            Y: 0.21
+            Z: 0.21
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2387583504664500996
+    }
+  }
+}
+Objects {
+  Id: 3148483243563297839
+  Name: "Respawn on Fall by InsertYourself"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7083840006275311224
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Respawn on Fall by InsertYourself"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1150005499445681573
+    }
   }
 }
 Objects {
@@ -84,51 +226,6 @@ Objects {
   }
 }
 Objects {
-  Id: 14982843161775482339
-  Name: "Default Floor"
-  Transform {
-    Location {
-      Z: -50
-    }
-    Rotation {
-    }
-    Scale {
-      X: 50
-      Y: 50
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13417971313372784885
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 6449829660791420504
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 10005074784157121906
   Name: "Default Sky"
   Transform {
@@ -164,6 +261,8 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
+      X: -100
+      Y: -2950
     }
     Rotation {
       Pitch: -45.8452454
@@ -263,6 +362,8 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
+      X: -100
+      Y: -2950
     }
     Rotation {
     }
@@ -342,6 +443,8 @@ Objects {
   Name: "Sky Dome"
   Transform {
     Location {
+      X: -100
+      Y: -2950
     }
     Rotation {
     }
@@ -524,6 +627,8 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
+      X: -100
+      Y: -2950
       Z: 500
     }
     Rotation {

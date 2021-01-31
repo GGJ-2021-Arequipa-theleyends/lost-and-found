@@ -47,7 +47,7 @@ function OnBindingReleased(whichplayer, binding)
 		Task.Wait(0.2)
 	end
 	Task.Wait(0.5)
-	print(player:GetVelocity() == Vector3.New(0, 0, 0))
+	--print(player:GetVelocity() == Vector3.New(0, 0, 0))
 	if  player:GetVelocity() == Vector3.New(0, 0, 0) then
 		Events.BroadcastToServer("Default")
 		Running = false

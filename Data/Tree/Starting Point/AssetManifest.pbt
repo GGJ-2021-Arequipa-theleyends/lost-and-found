@@ -1,4 +1,13 @@
 Assets {
+  Id: 17925326465180611494
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 15938236315670002065
   Name: "Birch Leaves 01"
   PlatformAssetType: 2

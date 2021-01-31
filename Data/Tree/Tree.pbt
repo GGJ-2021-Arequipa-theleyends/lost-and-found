@@ -42,7 +42,7 @@ Objects {
     Location {
       X: 450
       Y: -500
-      Z: 13950
+      Z: -50
     }
     Rotation {
     }
@@ -126,7 +126,7 @@ Objects {
           Vector {
             X: 600
             Y: -3350
-            Z: 14700
+            Z: 700
           }
         }
         Overrides {
@@ -166,7 +166,7 @@ Objects {
           Vector {
             X: -600
             Y: -3300
-            Z: 14700
+            Z: 700
           }
         }
         Overrides {
@@ -237,7 +237,6 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Z: 14000
           }
         }
       }
@@ -260,6 +259,43 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
+      key: 4586248533900355589
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -1000
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5637922765994959926
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -200
+            Y: -300
+            Z: -110
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8768135237325925539
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -706.855103
+            Y: -4824.10742
+            Z: -2281.14795
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13664821734768608629
       value {
         Overrides {
@@ -269,7 +305,18 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Z: 14000
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16180970171577782523
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50
+            Z: 150
           }
         }
       }
@@ -364,7 +411,7 @@ Objects {
     Location {
       X: -100
       Y: -2950
-      Z: 14500
+      Z: 500
     }
     Rotation {
     }

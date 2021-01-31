@@ -1,28 +1,10 @@
 Assets {
-  Id: 17925326465180611494
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 17746036179414472723
   Name: "Fern 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
-  }
-}
-Assets {
-  Id: 13800942392157620377
-  Name: "Grass Clumps"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_grass_002_uv"
   }
 }
 Assets {

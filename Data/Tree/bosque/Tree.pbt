@@ -7,7 +7,7 @@ Objects {
     Location {
       X: -50
       Y: 3300
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -48,7 +48,7 @@ Objects {
     Location {
       X: -1750
       Y: 550
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -89,7 +89,7 @@ Objects {
     Location {
       X: 1800
       Y: 450
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -130,6 +130,7 @@ Objects {
     Location {
       X: 1800
       Y: -1750
+      Z: 14000
     }
     Rotation {
     }
@@ -170,6 +171,7 @@ Objects {
     Location {
       X: -450
       Y: -850
+      Z: 14000
     }
     Rotation {
     }
@@ -210,7 +212,7 @@ Objects {
     Location {
       X: 450
       Y: 3000
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -251,7 +253,7 @@ Objects {
     Location {
       X: 1500
       Y: 1650
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -292,7 +294,7 @@ Objects {
     Location {
       X: -1100
       Y: 2300
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -333,7 +335,7 @@ Objects {
     Location {
       X: 1150
       Y: 800
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -374,7 +376,7 @@ Objects {
     Location {
       X: -1250
       Y: 3200
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -415,7 +417,7 @@ Objects {
     Location {
       X: -300
       Y: 2600
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -456,7 +458,7 @@ Objects {
     Location {
       X: 800
       Y: 1900
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -497,7 +499,7 @@ Objects {
     Location {
       X: -50
       Y: 3850
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -538,7 +540,7 @@ Objects {
     Location {
       X: 150
       Y: 500
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -579,7 +581,7 @@ Objects {
     Location {
       X: 300
       Y: 350
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -620,7 +622,7 @@ Objects {
     Location {
       X: -800
       Y: 400
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -661,7 +663,7 @@ Objects {
     Location {
       X: 1350
       Y: 3050
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -702,7 +704,7 @@ Objects {
     Location {
       X: 1700
       Y: -1250
-      Z: -50
+      Z: 13950
     }
     Rotation {
       Yaw: 90
@@ -744,7 +746,7 @@ Objects {
     Location {
       X: -1200
       Y: 1600
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -785,7 +787,7 @@ Objects {
     Location {
       X: -100
       Y: -600
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -826,7 +828,7 @@ Objects {
     Location {
       X: -1300
       Y: -1500
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -867,7 +869,7 @@ Objects {
     Location {
       X: 1250
       Y: -750
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -908,7 +910,7 @@ Objects {
     Location {
       X: -750
       Y: -650
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -949,7 +951,7 @@ Objects {
     Location {
       X: -1800
       Y: -2830
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -998,7 +1000,7 @@ Objects {
     Location {
       X: 1800
       Y: -2830
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }

@@ -1,13 +1,116 @@
 Name: "Starting Point"
 RootId: 3580768895794412404
 Objects {
+  Id: 7731056089800675612
+  Name: "Corrugated Sheet Wall 03 Template"
+  Transform {
+    Location {
+      X: -800
+      Y: -5350
+      Z: 250
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3580768895794412404
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11896160375367793387
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Corrugated Sheet Wall 03 Template"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -550
+            Y: -5350
+            Z: 14250
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6750482985374791990
+    }
+  }
+}
+Objects {
+  Id: 3955032280547634713
+  Name: "Arch"
+  Transform {
+    Location {
+      Y: -3700
+      Z: 13950
+    }
+    Rotation {
+      Roll: 89.9999619
+    }
+    Scale {
+      X: 10
+      Y: 10
+      Z: 7
+    }
+  }
+  ParentId: 3580768895794412404
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15938236315670002065
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10324669713559097432
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+    }
+  }
+}
+Objects {
   Id: 1215922368820094414
   Name: "Fantasy Castle Wall 02 - Curved"
   Transform {
     Location {
       X: 750
       Y: -3200
-      Z: -50
+      Z: 13950
     }
     Rotation {
       Yaw: 89.9999924
@@ -63,7 +166,7 @@ Objects {
     Location {
       X: -1150
       Y: -2800
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }
@@ -143,7 +246,7 @@ Objects {
           Vector {
             X: 800
             Y: -4600
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -199,7 +302,7 @@ Objects {
           Vector {
             X: 800
             Y: -4950
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -255,7 +358,7 @@ Objects {
           Vector {
             X: 800
             Y: -5300
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -310,7 +413,7 @@ Objects {
           Vector {
             X: 400
             Y: -5350
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -364,7 +467,7 @@ Objects {
           Vector {
             X: 50
             Y: -5350
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -418,7 +521,7 @@ Objects {
           Vector {
             X: -300
             Y: -5350
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -472,7 +575,7 @@ Objects {
           Vector {
             X: -800
             Y: -5350
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -526,8 +629,8 @@ Objects {
           Name: "Position"
           Vector {
             X: -750
-            Y: -5450
-            Z: 250
+            Y: -5350
+            Z: 14250
           }
         }
         Overrides {
@@ -583,7 +686,7 @@ Objects {
           Vector {
             X: -750
             Y: -5100
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -639,7 +742,7 @@ Objects {
           Vector {
             X: -750
             Y: -4750
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -695,7 +798,7 @@ Objects {
           Vector {
             X: -750
             Y: -4550
-            Z: 250
+            Z: 14250
           }
         }
         Overrides {
@@ -751,7 +854,7 @@ Objects {
           Vector {
             X: -750
             Y: -4550
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -806,7 +909,7 @@ Objects {
           Vector {
             X: -800
             Y: -5350
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -860,7 +963,7 @@ Objects {
           Vector {
             X: 400
             Y: -5350
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -914,7 +1017,7 @@ Objects {
           Vector {
             X: 50
             Y: -5350
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -968,7 +1071,7 @@ Objects {
           Vector {
             X: -300
             Y: -5350
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1022,7 +1125,7 @@ Objects {
           Vector {
             X: -650
             Y: -5350
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1077,7 +1180,7 @@ Objects {
           Vector {
             X: 800
             Y: -5300
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1133,7 +1236,7 @@ Objects {
           Vector {
             X: 800
             Y: -4950
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1189,7 +1292,7 @@ Objects {
           Vector {
             X: 800
             Y: -4600
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1245,7 +1348,7 @@ Objects {
           Vector {
             X: -750
             Y: -5100
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1300,8 +1403,8 @@ Objects {
           Name: "Position"
           Vector {
             X: -750
-            Y: -5450
-            Z: -50
+            Y: -5350
+            Z: 13950
           }
         }
         Overrides {
@@ -1356,7 +1459,7 @@ Objects {
           Vector {
             X: -750
             Y: -4750
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1411,7 +1514,7 @@ Objects {
           Vector {
             X: -650
             Y: -4200
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1465,7 +1568,7 @@ Objects {
           Vector {
             X: 400
             Y: -4200
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {
@@ -1512,7 +1615,7 @@ Objects {
           Vector {
             X: 50
             Y: -4200
-            Z: -50
+            Z: 13950
           }
         }
         Overrides {

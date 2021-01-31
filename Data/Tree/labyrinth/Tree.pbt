@@ -104,61 +104,12 @@ Objects {
   }
 }
 Objects {
-  Id: 3955032280547634713
-  Name: "Arch"
-  Transform {
-    Location {
-      Y: -3700
-      Z: -50
-    }
-    Rotation {
-      Roll: 89.9999771
-    }
-    Scale {
-      X: 10
-      Y: 10
-      Z: 7
-    }
-  }
-  ParentId: 637669065586339152
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 15938236315670002065
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10324669713559097432
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-    }
-  }
-}
-Objects {
   Id: 14982843161775482339
   Name: "Default Floor"
   Transform {
     Location {
       Y: -550
-      Z: -50
+      Z: 13950
     }
     Rotation {
     }

@@ -1,10 +1,10 @@
 local propMusic1 = script:GetCustomProperty("music1"):WaitForObject()
 
 
-local LOCAL_PLAYER = Game.GetLocalPlayer()
+-- local LOCAL_PLAYER = Game.GetLocalPlayer()
 
 
-propMusic1:play()
+-- propMusic1:play()
 
 function PlaySound()
     propMusic1:play()

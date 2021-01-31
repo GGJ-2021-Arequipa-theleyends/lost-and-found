@@ -40,6 +40,7 @@ Objects {
   Name: "music1"
   Transform {
     Location {
+      Z: 14000
     }
     Rotation {
     }
@@ -74,7 +75,7 @@ Objects {
       Repeat: true
       Volume: 1
       Falloff: 3600
-      Radius: 400
+      Radius: 40000
       EnableOcclusion: true
       IsSpatializationEnabled: true
       IsAttenuationEnabled: true

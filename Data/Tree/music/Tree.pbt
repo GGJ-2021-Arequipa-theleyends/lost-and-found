@@ -40,6 +40,7 @@ Objects {
   Name: "music1"
   Transform {
     Location {
+      Z: 450
     }
     Rotation {
     }

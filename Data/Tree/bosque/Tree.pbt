@@ -1,6 +1,41 @@
 Name: "bosque"
 RootId: 11746636457823810552
 Objects {
+  Id: 12929574719782864516
+  Name: "random"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11746636457823810552
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:objetos"
+      ObjectReference {
+        SelfId: 9503243746298527675
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14861218430785988584
+    }
+  }
+}
+Objects {
   Id: 2299908016245588908
   Name: "Tree Redwood Bare Big"
   Transform {
@@ -60,7 +95,7 @@ Objects {
   }
   ParentId: 11746636457823810552
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -169,7 +204,7 @@ Objects {
   Transform {
     Location {
       X: -450
-      Y: -850
+      Y: -1450
     }
     Rotation {
     }
@@ -709,7 +744,7 @@ Objects {
     }
     Scale {
       X: 1
-      Y: 10
+      Y: 1
       Z: 1
     }
   }
@@ -742,7 +777,7 @@ Objects {
   Name: "Bush 02"
   Transform {
     Location {
-      X: -1200
+      X: -1150
       Y: 1600
       Z: -50
     }
@@ -832,7 +867,7 @@ Objects {
     }
     Scale {
       X: 1
-      Y: 10
+      Y: 1
       Z: 1
     }
   }

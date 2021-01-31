@@ -24,6 +24,8 @@ Objects {
   ChildIds: 12143787958206797703
   ChildIds: 637669065586339152
   ChildIds: 1977523113125348848
+  ChildIds: 9503243746298527675
+  ChildIds: 9104258142949794794
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +35,68 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9104258142949794794
+  Name: "destroy"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:objetos"
+      ObjectReference {
+        SelfId: 9503243746298527675
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 578310246733889999
+    }
+  }
+}
+Objects {
+  Id: 9503243746298527675
+  Name: "objetos"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "objetos"
   }
 }
 Objects {
@@ -364,6 +428,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 4226120016796708080
+  ChildIds: 12097572825107067998
   ChildIds: 724324913679364851
   UnregisteredParameters {
   }
@@ -449,6 +514,53 @@ Objects {
     MinPitch: -89
     MaxPitch: 89
     DoesPositionOffsetSpring: true
+  }
+}
+Objects {
+  Id: 12097572825107067998
+  Name: "Basic Loot Table"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14713340454944924967
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1749190421835323274
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Basic Loot Table"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -250
+            Y: -5000
+            Z: 50
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12524274458111851466
+    }
   }
 }
 Objects {
